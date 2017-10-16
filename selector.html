@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../jQurey/jquery-3.2.1.js"></script>
+</head>
+<style>
+	div{
+		width: 200px;
+		height: 200px;
+		background: skyblue;
+		margin-right: 10px;
+		float: left;
+	}
+</style>
+<body>
+	<div style="display: none">wo</div>
+	<div>我</div>
+	<div><p></p></div>
+	<div></div>
+</body>
+<script>
+	$(function(){
+		// $('div:first').css('background','yellow');
+		// $('div:last').css('background','yellow');
+		// $('div:empty').css('background','yellow');
+		// $("div").click(function(){
+		// 	$(this).animate({width:'300'},1000);
+		// }).dblclick(function(){
+		// 	$(this).animate({width:'200'},1000);
+		// })
+		// $("div:contains('我')").css('background','yellow');
+		// $("div:has(p)").html('我是p标签');
+		// $("div:parent").css('background','blue');
+		// $("div:even").css('background','yellow');
+		$("div:hidden").css('display','block')
+	})
+</script>
+</html>
